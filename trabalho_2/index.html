@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+    <title>calculo imc</title>
+
+</head>
+
+<body style="background-image: url(imagens/fundo.jpg)">
+
+    <div>
+
+        <header>
+    
+        </header>
+ 
+        <div id="login">
+
+            <h1 style="color: rgb(60, 60, 235)">Calculadora de IMC</h1>
+
+            <form action="dados.php" method="POST">
+                
+                <strong>Nome:</strong> <input type="text" name="nome"> <br><br>
+                <strong>Idade:</strong><input type="number" name="idade"> Anos<br><br>
+                <strong>Peso:</strong> <input type="number" step="0.01" name="peso"> Kg<br><br>
+                <strong>Altura:</strong><input type="number" step="0.01" name="altura"> Ex: 1.80<br><br>
+
+                <input type="submit" value="Calcular">
+                <button type="reset">Limpar</button><br><br>
+
+            </form>
+
+            <img id="logo" src="imagens/logo.png" alt="logo">
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

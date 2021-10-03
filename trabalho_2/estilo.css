@@ -1,0 +1,67 @@
+body{
+    background-image: url(imagens/fundo.jpg);
+    background-attachment: fixed;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-color: #D3D3D3;
+    font: size 25;
+    
+    
+    }
+
+h2 {
+    text-align: center
+}
+h1{
+    color: rgb(67, 33, 218);
+}
+p{
+    color: black;
+    
+}
+img{
+    margin: auto;
+    display: block;
+}
+
+#login{
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 400px;
+    padding: 40px;
+    align-items: center;
+    border-radius: 2%;
+    text-align: center; 
+    margin: auto;
+    
+}
+
+
+#logo {
+    width: 120px;
+    border-radius: 100px;
+}
+
+#formcadastro {
+    background-color: #ffffff;
+    width: 400px;
+    height: 650px;
+    padding: 40px;
+    align-items: center;
+    border-radius: 2%;
+    text-align: center; 
+    margin: auto;
+}
+
+#botao{
+    position: absolute left;
+    margin:10px;
+    padding:5px;
+
+}
+
+p{
+    text-align: left;
+}
+
+
